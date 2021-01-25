@@ -23,23 +23,9 @@
   <script>
     $(function () {
       // 测试 get 接口
-      /* $.ajax({
+      $.ajax({
         url: "http://localhost:8888/getMessage",
         type: "POST",
-        data: {
-          username: "jsliang"
-        },
-        success: function (res) {
-          console.log(res);
-        },
-        error: function (err) {
-          console.log(err);
-        }
-      }) */
-
-      $.ajax({
-        url: "http://localhost:8888/",
-        type: "get",
         data: {
           username: "jsliang"
         },
